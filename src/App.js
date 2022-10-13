@@ -1,13 +1,14 @@
 /* import logo from './logo.svg'; */
 import './App.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import Catalogo from './components/Catalogo';
 import NavBar from './components/NavBar';
-import Cliker from './components/Cliker';
 
 function App() {
   return (
-    <div>
+    <div className='Pagina'>
       <NavBar/>
-      <Cliker/>
+      <Catalogo/>
     </div>
   );
 }

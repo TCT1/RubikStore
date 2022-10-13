@@ -16,16 +16,22 @@ code {
     monospace;
 }
 
-.Counter{
+.Pagina{
+  background-color: rgb(24, 24, 24);
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  margin: 10px;
-  width: 30%;
-  background-color: rgb(0, 0, 0);
+  align-items: center;
+  width: 100%;
 }
 
-.counter__number{
-  color: white;
-  font-weight: 600;
+.Productos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
+
+.Producto{
+  margin: 20px;
+}
+
